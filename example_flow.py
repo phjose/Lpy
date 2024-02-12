@@ -38,12 +38,12 @@ def main():
     # print(col)
 
     # Empieza en 1, no en 0 y va saltando de 2 en dos.
-    # conf = {'first': 1, 'pas': 2}
-    # li = ['españa', 'canada', 'india', 'suiza', 'francia', 'portugal']
+    conf = {'first': 1, 'pas': 2}
+    li = ['españa', 'canada', 'india', 'suiza', 'francia', 'portugal']
 
-    # print(str(conf['first']) + ', ' + str(conf['pas']))
-    # print(li)
-    # country_position(li, conf)
+    print(str(conf['first']) + ', ' + str(conf['pas']))
+    print(li)
+    country_position(li, conf)
 
     fibo(2000)
 
